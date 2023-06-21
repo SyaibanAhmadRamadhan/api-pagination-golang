@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/infrastructure/db"
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/infrastructure/db/transaction"
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/internal/helpers/pagination"
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/internal/helpers/profileconverter"
-	httpprotocol "github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/internal/http-protocol"
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/internal/logs"
-	httphand "github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/src/handlers/http"
-	profilerepo "github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/src/modules/profile/repository"
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/src/modules/profile/services"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/infrastructure/db"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/infrastructure/db/transaction"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/internal/helpers/pagination"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/internal/helpers/profileconverter"
+	httpprotocol "github.com/SyaibanAhmadRamadhan/api-pagination-golang/internal/http-protocol"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/internal/logs"
+	httphand "github.com/SyaibanAhmadRamadhan/api-pagination-golang/src/handlers/http"
+	profilerepo "github.com/SyaibanAhmadRamadhan/api-pagination-golang/src/modules/profile/repository"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/src/modules/profile/services"
 )
 
 func main() {

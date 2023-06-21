@@ -4,12 +4,12 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/infrastructure/db/transaction"
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/internal/helpers/pagination"
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/internal/helpers/pagination/models"
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/internal/helpers/profileconverter"
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/src/modules/profile/dto"
-	profilerepo "github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/src/modules/profile/repository"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/infrastructure/db/transaction"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/internal/helpers/pagination"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/internal/helpers/pagination/models"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/internal/helpers/profileconverter"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/src/modules/profile/dto"
+	profilerepo "github.com/SyaibanAhmadRamadhan/api-pagination-golang/src/modules/profile/repository"
 )
 
 type ProfileService interface {

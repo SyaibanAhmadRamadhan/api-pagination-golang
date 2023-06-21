@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/internal/http-protocol/exception"
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/src/modules/profile/entities"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/internal/http-protocol/exception"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/src/modules/profile/entities"
 	"github.com/rs/zerolog/log"
 )
 

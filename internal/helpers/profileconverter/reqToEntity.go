@@ -3,7 +3,7 @@ package profileconverter
 import (
 	"time"
 
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/src/modules/profile/entities"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/src/modules/profile/entities"
 )
 
 func (cvt *ProfileConverterImpl) CreateRequestToEntity(uuid string) *entities.Profile {

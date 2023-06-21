@@ -1,8 +1,8 @@
 package profileconverter
 
 import (
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/src/modules/profile/dto"
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/src/modules/profile/entities"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/src/modules/profile/dto"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/src/modules/profile/entities"
 )
 
 type ProfileConverterImpl struct {

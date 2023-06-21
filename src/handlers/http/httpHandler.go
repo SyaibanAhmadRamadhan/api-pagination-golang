@@ -1,8 +1,7 @@
 package http
 
 import (
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/src/modules/profile/services"
-	"github.com/gofiber/fiber/v2"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/src/modules/profile/services"
 )
 
 type HttpHandlerImpl struct {

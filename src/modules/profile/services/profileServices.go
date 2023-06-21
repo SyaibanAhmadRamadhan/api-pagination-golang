@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/internal/helpers/pagination/models"
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/src/modules/profile/dto"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/internal/helpers/pagination/models"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/src/modules/profile/dto"
 	satoriuuid "github.com/satori/go.uuid"
 )
 

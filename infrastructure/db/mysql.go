@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/config"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/config"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"

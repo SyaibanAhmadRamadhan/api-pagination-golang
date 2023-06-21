@@ -3,9 +3,8 @@ package httpprotocol
 import (
 	"fmt"
 
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/config"
-	httphand "github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/src/handlers/http"
-	"github.com/gofiber/fiber/v2"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/config"
+	httphand "github.com/SyaibanAhmadRamadhan/api-pagination-golang/src/handlers/http"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/rs/zerolog/log"
 )

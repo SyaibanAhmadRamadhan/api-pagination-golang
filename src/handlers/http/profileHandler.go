@@ -5,9 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/internal/http-protocol/exception"
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/src/modules/profile/dto"
-	"github.com/gofiber/fiber/v2"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/internal/http-protocol/exception"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/src/modules/profile/dto"
 	"github.com/rs/zerolog/log"
 )
 

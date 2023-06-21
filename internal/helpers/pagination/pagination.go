@@ -1,7 +1,7 @@
 package pagination
 
 import (
-	"github.com/SyaibanAhmadRamadhan/technical-test-pt-zahir-international/internal/helpers/pagination/models"
+	"github.com/SyaibanAhmadRamadhan/api-pagination-golang/internal/helpers/pagination/models"
 )
 
 type PaginationImpl struct{}
